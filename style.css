@@ -1,0 +1,37 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    perspective: 1000px; 
+}
+
+body:hover {
+    background: linear-gradient(45deg, #777474a1, #b1b1b1c5);
+    transition: background 0.5s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color:rgb(255, 94, 0)
+}
+
+p {
+    background-color: bisque;
+    font: rgb(215, 221, 161);
+    border: 10px;
+}
+
+#status {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#map {
+    width: 100vw;
+    height: 100vh;
+}
